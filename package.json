@@ -1,0 +1,14 @@
+{
+  "name": "timestamp",
+  "version": "0.0.1",
+  "description": "Timestamp Microservice",
+  "main": "app.js",
+  "author": "Ekoulé Maneng Charly Karl",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "nodemon": "nodemon"
+  }
+}

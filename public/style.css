@@ -1,0 +1,76 @@
+#main {
+    width: 500px;
+    max-width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: .75rem;
+}
+
+hr {
+    border-width: 1.25px;
+    margin-bottom: .75rem;
+}
+
+p {
+    font-size: 1.15rem;
+    text-align: justify;
+    margin-bottom: .75rem;
+}
+
+input {
+    display: block;
+    width: 80%;
+    margin: 1rem auto;
+    border: 1px solid;
+    padding: .25rem;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1.25rem;
+}
+
+button {
+    display: block;
+    width: 50%;
+    margin: 1rem auto;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    background-color: gray;
+    border: 1px solid grey;
+    border-radius: 15px; 
+}
+
+table {
+    margin: auto;
+    font-size: 1.15rem;
+}
+
+tr {
+    height: 1.5rem;
+}
+
+tr>:nth-child(2) {
+    width: 2rem;
+    text-align: center;
+}
+
+td {
+    vertical-align: middle;
+}
+
+.red {
+    color: red;
+}
+
+.bold {
+    font-weight: 700;
+}
