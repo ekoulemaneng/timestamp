@@ -1,6 +1,6 @@
 const handleTime = () => {
     let val = document.getElementById("inputValue").value;
-    let url = "http://localhost:3000/api/timestamp/" + val;
+    let url = "https://ekoulemaneng-timestamp.glitch.me/api/timestamp/" + val;
     document.getElementById("inputValue").value = "";
     fetch(url).then(res => res.json()).then(value => fillTable(value));
 }
